@@ -1,0 +1,260 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Priya Patel",
+      "email": "priya.patel@example.in",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "3",
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@example.in",
+      "roles": [
+        "Viewer"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@example.in",
+      "roles": [
+        "Viewer"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "7",
+      "name": "Vikas Chawla",
+      "email": "vikas.chawla@example.in",
+      "roles": [
+        "Admin"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "name": "Divya Jain",
+      "email": "divya.jain@example.in",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "9",
+      "name": "Kunal Mehta",
+      "email": "kunal.mehta@example.in",
+      "roles": [
+        "Viewer"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "10",
+      "name": "Pooja Kapoor",
+      "email": "pooja.kapoor@example.in",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "11",
+      "name": "Rakesh Yadav",
+      "email": "rakesh.yadav@example.in",
+      "roles": [
+        "Admin"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "12",
+      "name": "Swati Tiwari",
+      "email": "swati.tiwari@example.in",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "13",
+      "name": "Arjun Nair",
+      "email": "arjun.nair@example.in",
+      "roles": [
+        "Viewer",
+        "Editor"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "14",
+      "name": "Meera Iyer",
+      "email": "meera.iyer@example.in",
+      "roles": [
+        "Admin"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "15",
+      "name": "Sanjay Verma",
+      "email": "sanjay.verma@example.in",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "16",
+      "name": "Preeti Chauhan",
+      "email": "preeti.chauhan@example.in",
+      "roles": [
+        "Viewer"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "17",
+      "name": "Tarun Joshi",
+      "email": "tarun.joshi@example.in",
+      "roles": [
+        "Admin"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "18",
+      "name": "Simran Gill",
+      "email": "simran.gill@example.in",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "19",
+      "name": "Rohan Das",
+      "email": "rohan.das@example.in",
+      "roles": [
+        "Viewer"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "20",
+      "name": "Isha Malhotra",
+      "email": "isha.malhotra@example.in",
+      "roles": [
+        "Admin"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "4c5a",
+      "name": "Sarthak",
+      "email": "Sar123@gmail.com",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "9b96",
+      "name": "Rajiv",
+      "email": "Rajiv@gmail.com",
+      "roles": [
+        "Editor"
+      ],
+      "status": "Inactive"
+    },
+    {
+      "id": "e381",
+      "name": "Sarthak",
+      "email": "Sar123@gmail.com",
+      "roles": [
+        "Admin",
+        "Editor",
+        "Viewer"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "39ce",
+      "name": "Amit Sharma 1",
+      "email": "amit.sharma@example.com",
+      "roles": [
+        "Admin"
+      ],
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Manage Users",
+        "View Reports",
+        "Manage Roles",
+        "major"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Edit Content",
+        "View Reports"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Viewer",
+      "permissions": [
+        "View Reports"
+      ]
+    },
+    {
+      "id": "96b3",
+      "name": "CEO",
+      "permissions": [
+        "ALL",
+        "View Reports"
+      ]
+    },
+    {
+      "id": "8c6b",
+      "name": "Co-Founder",
+      "permissions": [
+        "Admin"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "1",
+      "name": "Manage Users"
+    },
+    {
+      "id": "2",
+      "name": "View Reports"
+    },
+    {
+      "id": "3",
+      "name": "Edit Content"
+    },
+    {
+      "id": "4",
+      "name": "Manage Roles"
+    },
+    {
+      "id": "5",
+      "name": "Access Dashboard"
+    }
+  ]
+}
